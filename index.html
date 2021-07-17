@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container overflow-auto">
+
+        <h1>TO-DO APP <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Microsoft_To-Do_icon.png" width="50" height="30px" alt=""></h1>
+
+
+
+        <div class="to-do">
+            <input type="text" id="inpValue" placeholder="Enter To-Do" class="input" maxlength="16">
+            <button onclick="add()" class="btn btn-outline-primary">Add</button>
+            <button onclick="delAll()" class="btn btn-outline-danger">Delete All</button>
+
+            <ul id="main" class="list-group list-group-flush">
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html> 
